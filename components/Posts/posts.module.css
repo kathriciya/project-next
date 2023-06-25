@@ -1,0 +1,29 @@
+.linkPost {
+  color: var(--main-color);
+}
+
+.linkPost:hover,
+.linkPost:active {
+  color: var(--secondary-color);
+}
+
+.listPost {
+  margin-top: 25px;
+  list-style: none;
+  padding-left: 25px;
+}
+
+.linkWrap {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.linkWrap:hover,
+.linkWrap:active {
+  color: var(--secondary-color);
+}
+
+.rocketIcon {
+  position: absolute;
+  left: -25px;
+}
