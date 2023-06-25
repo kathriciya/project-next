@@ -1,0 +1,14 @@
+.link {
+  color: var(--accent-color);
+  margin-right: 1rem;
+  font-weight: bold;
+  padding: 2px;
+}
+
+.linkActive {
+  border-bottom: 2px solid var(--accent-color);
+}
+
+.link:last-child {
+  margin-right: 0;
+}

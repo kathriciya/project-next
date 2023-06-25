@@ -1,18 +1,16 @@
-import Link from 'next/link';
+import Navigation from '../Navigation/Navigation';
 import cls from './header.module.css';
+
+const navItems = [
+  { label: 'Home', href: '/' },
+  { label: 'Blog', href: '/blog' },
+  { label: 'About', href: '/about' },
+];
 
 const Header = () => {
   return (
     <header className={cls.header}>
-      <Link className={cls.link} href="/">
-        Home
-      </Link>
-      <Link className={cls.link} href="/blog">
-        Blog
-      </Link>
-      <Link className={cls.link} href="/about">
-        About
-      </Link>
+      <Navigation navLinks={navItems} />
     </header>
   );
 };
