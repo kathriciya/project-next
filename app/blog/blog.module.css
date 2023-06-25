@@ -1,14 +1,6 @@
-.linkPost {
-  color: var(--main-color);
-}
-
-.linkPost:hover,
-.linkPost:active {
-  color: var(--secondary-color);
-}
-
-.listPost {
-  margin-top: 25px;
+.title {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .titlePost {
